@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="73.679547">
-<testcase classname="Checking Background Verification" name="Validation Multiple Details with Purchase Flight" time="32.515332">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="77.805349">
+<testcase classname="Checking Background Verification" name="Validation Multiple Details with Purchase Flight" time="37.427519">
 <system-out><![CDATA[Given I select source_city from dropdown and destiny_city from dropdown.....passed
 When I click on FindFlights button..........................................passed
 Then I Validate Navigation to Purchase Page.................................passed
@@ -7,7 +7,7 @@ When I Enter username as "SunkaraRam" and  Address as "Dmm" and City as "ATP" an
 Then I will get Id of the flight and store it into txt file.................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Checking Background Verification" name="Validation Multiple Details with Purchase Flight 2" time="21.393713">
+<testcase classname="Checking Background Verification" name="Validation Multiple Details with Purchase Flight 2" time="18.182239">
 <system-out><![CDATA[Given I select source_city from dropdown and destiny_city from dropdown.....passed
 When I click on FindFlights button..........................................passed
 Then I Validate Navigation to Purchase Page.................................passed
@@ -15,7 +15,7 @@ When I Enter username as "Lavanya" and  Address as "Dmm" and City as "ATP" and S
 Then I will get Id of the flight and store it into txt file.................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Checking Background Verification" name="Validation Multiple Details with Purchase Flight 3" time="19.770502">
+<testcase classname="Checking Background Verification" name="Validation Multiple Details with Purchase Flight 3" time="22.195591">
 <system-out><![CDATA[Given I select source_city from dropdown and destiny_city from dropdown.....passed
 When I click on FindFlights button..........................................passed
 Then I Validate Navigation to Purchase Page.................................passed

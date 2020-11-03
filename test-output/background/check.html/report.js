@@ -119,7 +119,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 31081240355,
+  "duration": 24261233405,
   "status": "passed"
 });
 formatter.scenario({
@@ -177,21 +177,21 @@ formatter.match({
   "location": "StepDefMethods.i_select_source_city_from_dropdown_and_destiny_city_from_dropdown()"
 });
 formatter.result({
-  "duration": 4593273374,
+  "duration": 4106530359,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefMethods.i_click_on_FindFlights_button()"
 });
 formatter.result({
-  "duration": 30844,
+  "duration": 35470,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefMethods.i_Validate_Navigation_to_Purchase_Page()"
 });
 formatter.result({
-  "duration": 14671668,
+  "duration": 16638959,
   "status": "passed"
 });
 formatter.match({
@@ -240,22 +240,22 @@ formatter.match({
   "location": "StepDefMethods.i_Enter_username_as_and_Address_as_and_City_as_and_State_as_and_Zipcode_as_and_CardTyep_as_and_CCNumber_as_and_Month_as_and_Year_as_and_NameofCard_as(String,String,String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 3252969958,
+  "duration": 3307678863,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefMethods.i_will_get_Id_of_the_flight_and_store_it_into_txt_file()"
 });
 formatter.result({
-  "duration": 17154022949,
+  "duration": 4848745756,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1508892652,
+  "duration": 886655830,
   "status": "passed"
 });
 formatter.before({
-  "duration": 11051471896,
+  "duration": 7858123676,
   "status": "passed"
 });
 formatter.scenario({
@@ -313,21 +313,21 @@ formatter.match({
   "location": "StepDefMethods.i_select_source_city_from_dropdown_and_destiny_city_from_dropdown()"
 });
 formatter.result({
-  "duration": 2368556953,
+  "duration": 2189296433,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefMethods.i_click_on_FindFlights_button()"
 });
 formatter.result({
-  "duration": 49863,
+  "duration": 31357,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefMethods.i_Validate_Navigation_to_Purchase_Page()"
 });
 formatter.result({
-  "duration": 13593178,
+  "duration": 15388776,
   "status": "passed"
 });
 formatter.match({
@@ -376,22 +376,22 @@ formatter.match({
   "location": "StepDefMethods.i_Enter_username_as_and_Address_as_and_City_as_and_State_as_and_Zipcode_as_and_CardTyep_as_and_CCNumber_as_and_Month_as_and_Year_as_and_NameofCard_as(String,String,String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 3184771713,
+  "duration": 2568381763,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefMethods.i_will_get_Id_of_the_flight_and_store_it_into_txt_file()"
 });
 formatter.result({
-  "duration": 5238870949,
+  "duration": 4811113270,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1267713079,
+  "duration": 739903687,
   "status": "passed"
 });
 formatter.before({
-  "duration": 8682114044,
+  "duration": 7823933308,
   "status": "passed"
 });
 formatter.scenario({
@@ -449,21 +449,21 @@ formatter.match({
   "location": "StepDefMethods.i_select_source_city_from_dropdown_and_destiny_city_from_dropdown()"
 });
 formatter.result({
-  "duration": 2173895319,
+  "duration": 4154509761,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefMethods.i_click_on_FindFlights_button()"
 });
 formatter.result({
-  "duration": 26731,
+  "duration": 478072,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefMethods.i_Validate_Navigation_to_Purchase_Page()"
 });
 formatter.result({
-  "duration": 14620776,
+  "duration": 23030215,
   "status": "passed"
 });
 formatter.match({
@@ -512,18 +512,18 @@ formatter.match({
   "location": "StepDefMethods.i_Enter_username_as_and_Address_as_and_City_as_and_State_as_and_Zipcode_as_and_CardTyep_as_and_CCNumber_as_and_Month_as_and_Year_as_and_NameofCard_as(String,String,String,String,String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 2801504539,
+  "duration": 3671738341,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefMethods.i_will_get_Id_of_the_flight_and_store_it_into_txt_file()"
 });
 formatter.result({
-  "duration": 5118505290,
+  "duration": 5257481311,
   "status": "passed"
 });
 formatter.after({
-  "duration": 911048294,
+  "duration": 1264419523,
   "status": "passed"
 });
 });

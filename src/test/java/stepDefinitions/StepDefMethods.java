@@ -12,6 +12,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import com.aventstack.extentreports.ExtentTest;
+
+import Implementations.ExtentReportListener;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
@@ -41,6 +44,8 @@ public class StepDefMethods extends stepDefinitions.TestBase{
 	
 	int i=0;
 	
+	ExtentReportListener er = new ExtentReportListener();
+	
 	
 	@After
 	public void CloseApp() throws IOException {
@@ -51,9 +56,13 @@ public class StepDefMethods extends stepDefinitions.TestBase{
 		
 	}
 	
+	 ExtentTest extentTest;
+	 Throwable throwable;
 	@Before
 	public void i_Launch_application_on_ChromeBrowser() throws Throwable {
 	    
+		
+		er.setUp();
 		System.setProperty("webdriver.chrome.driver", "D:\\LatestDrivers\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
@@ -69,7 +78,8 @@ public class StepDefMethods extends stepDefinitions.TestBase{
 //		p.load(fi);
 		
 		driver.get("https://blazedemo.com/index.php");
-		
+		er.testStepHandle("Pass", driver,extentTest, throwable);
+	
 	}
 
 	@Then("^I validate the Header of the Page$")
