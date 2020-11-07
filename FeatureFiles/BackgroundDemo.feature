@@ -5,7 +5,7 @@ Feature: Checking Background Verification
    
   Scenario: Validate Navigation Page
   	Then I select source_city from dropdown and destiny_city from dropdown  
-  	   When I click on FindFlights button
+  	When I click on FindFlights button
   	Then Validation of user navigation to ReservePage
   	
   Scenario: Validation of Navigaton to Purchase Page
