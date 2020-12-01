@@ -54,16 +54,16 @@ public class BrokenLinks {
 			
 			System.out.println(deactiveLinks.get(j).getAttribute("href"));
 			
-//		HttpURLConnection connect=	 (HttpURLConnection) new URL(activeLinks.get(j).getAttribute("href")).openConnection();
-//			
-//		connect.connect();
-//		
-//		String res = connect.getResponseMessage();
-//		
-//		connect.disconnect();
-//		
-//		System.out.println(activeLinks.get(j).getAttribute("href")+"-----"+res);;
-//		
+		HttpURLConnection connect=	 (HttpURLConnection) new URL(activeLinks.get(j).getAttribute("href")).openConnection();
+			
+		connect.connect();
+		
+		String res = connect.getResponseMessage();
+		
+		connect.disconnect();
+		
+		System.out.println(activeLinks.get(j).getAttribute("href")+"-----"+res);;
+		
 		}
 		
 	}

@@ -20,7 +20,7 @@ glue="stepDefinitions",
 format = {"pretty","html:test-output/background/check.html","json:json-output/background.json","junit:junit-xml/background.xml"},
 	monochrome = true,	
 	dryRun = false,
-	strict =true,
+	//strict =true,
 	tags="@Special")
 @Test
 public class TestRunner extends TestBase {
