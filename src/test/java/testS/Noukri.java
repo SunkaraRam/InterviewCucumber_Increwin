@@ -26,22 +26,22 @@ public class Noukri {
 		
 		Set<String> wins = driver.getWindowHandles();
 		
-		int j =1;
-		
-		for (String win : wins) {
-			
-			if (j==2 || j==3) {
-				
-				System.out.println("Entered");
-				
-				driver.switchTo().window(win);
-				
-				System.out.println("Switched");
-				
-				driver.close();
-			}
-			j++;			
-		}
+//		int j =1;
+//		
+//		for (String win : wins) {
+//			
+//			if (j==2 || j==3) {
+//				
+//				System.out.println("Entered");
+//				
+//				driver.switchTo().window(win);
+//				
+//				System.out.println("Switched");
+//				
+//				driver.close();
+//			}
+//			j++;			
+//		}
 		
 		driver.quit();
 		
