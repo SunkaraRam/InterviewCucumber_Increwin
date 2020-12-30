@@ -56,9 +56,6 @@ public class BrokenLinks {
 			
 		HttpURLConnection connect=	 (HttpURLConnection) new URL(activeLinks.get(j).getAttribute("href")).openConnection();
 			
-		connect.connect();
-		
-		String res = connect.getResponseMessage();
 
 		}
 		
