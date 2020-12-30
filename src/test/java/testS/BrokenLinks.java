@@ -59,11 +59,7 @@ public class BrokenLinks {
 		connect.connect();
 		
 		String res = connect.getResponseMessage();
-		
-		connect.disconnect();
-		
-		System.out.println(activeLinks.get(j).getAttribute("href")+"-----"+res);;
-		
+
 		}
 		
 	}
