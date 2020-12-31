@@ -28,21 +28,19 @@ public class Noukri {
 		
 		int j =1;
 		
-		for (String win : wins) {
-			
-			if (j==2 || j==3) {
-				
-				System.out.println("Entered");
-				
-				driver.switchTo().window(win);
-				
-				System.out.println("Switched");
-				
-				driver.close();
-			}
-			j++;			
-		}
-		
+		/*
+		 * for (String win : wins) {
+		 * 
+		 * if (j==2 || j==3) {
+		 * 
+		 * System.out.println("Entered");
+		 * 
+		 * driver.switchTo().window(win);
+		 * 
+		 * System.out.println("Switched");
+		 * 
+		 * driver.close(); } j++; }
+		 */		
 		driver.quit();
 		
 		//driver.switchTo().window(wins[0]);
