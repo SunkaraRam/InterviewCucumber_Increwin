@@ -43,12 +43,6 @@ public class Noukri {
 		 		
 		driver.quit();
 		
-		//driver.switchTo().window(wins[0]);
-		
-		
-		
-		// TODO Auto-generated method stub
-
 	}
 
 }
